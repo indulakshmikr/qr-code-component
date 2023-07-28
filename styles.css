@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --bodyColor:hsl(212, 45%, 89%);
+    --bgColor:hsl(0, 0%, 100%);
+    --paraColor:hsl(220, 15%, 55%);
+    --paraFont: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: var(--bodyColor);
+    font-family:var(--paraFont);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: var(--bgColor);
+    box-sizing: border-box;
+    width: 350px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 6rem;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+h2{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 500;
+    color:var(--paraColor)
+}
+
